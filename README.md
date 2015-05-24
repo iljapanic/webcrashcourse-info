@@ -2,12 +2,12 @@
 
 ## Workshops
 
-### WCC workshop #1
+- [WCC workshop #1](https://github.com/WebCrashCourse/workshop-1)
 
 
 ## Resources
 
-## Books worth reading
+### Books worth reading
 
 - [Mobile First](http://abookapart.com/products/mobile-first) by Luke Wroblewski
 - [SMACSS](https://smacss.com/) by Jonathan Snook (free online)
@@ -15,7 +15,7 @@
 - [Designing for Emotion](http://abookapart.com/products/designing-for-emotion) by Aaron Walter
 - [Don’t Make Me Think: A Common Sense Approach to Web Usability](http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515) by Steve Krug 
 
-## Articles worth reading
+### Articles worth reading
 
 
 
