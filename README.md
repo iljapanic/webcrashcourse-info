@@ -1,4 +1,4 @@
-# Webdesign Crash Course - Info & Resources
+# Web Crash Course: Info & Resources
 
 ## Workshops
 
