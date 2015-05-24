@@ -1,8 +1,8 @@
-# Webdesign Crash Course - General info & Resources
+# Webdesign Crash Course - Info & Resources
 
 ## Workshops
 
-- [WCC workshop #1](https://github.com/WebCrashCourse/workshop-1)
+- [Workshop #1](https://github.com/WebCrashCourse/workshop-1)
 
 
 ## Resources
