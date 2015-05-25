@@ -5,19 +5,17 @@
 - [Workshop #1](https://github.com/WebCrashCourse/workshop-1)
 
 
-## Resources
+## Resources & literature
 
 ### Books worth reading
 
-- [Mobile First](http://abookapart.com/products/mobile-first) by Luke Wroblewski
-- [SMACSS](https://smacss.com/) by Jonathan Snook (free online)
-- [Design for Hackers](http://www.amazon.com/Design-Hackers-Reverse-Engineering-Beauty/dp/1119998956) by David Kadavy
-- [Designing for Emotion](http://abookapart.com/products/designing-for-emotion) by Aaron Walter
-- [Don’t Make Me Think: A Common Sense Approach to Web Usability](http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515) by Steve Krug 
+- [Mobile First](http://abookapart.com/products/mobile-first) by *Luke Wroblewski* - rethinking the way we conceptualise websites
+- [SMACSS](https://smacss.com/) by *Jonathan Snook* (available for free online) - best practices for writing CSS
+- [Design for Hackers](http://www.amazon.com/Design-Hackers-Reverse-Engineering-Beauty/dp/1119998956) by *David Kadavy* - great intro into absolute basics of design
+- [Designing for Emotion](http://abookapart.com/products/designing-for-emotion) by *Aaron Walter* - design with purpose
+- [Don’t Make Me Think](http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515) by *Steve Krug* - the UX bible
 
 ### Articles worth reading
-
-
 
 ### HTML
 
@@ -42,11 +40,8 @@
 
 ### Icon fonts
 
-- [icomoon.io](https://icomoon.io/)
-- [fontastic.me](http://fontastic.me)
-
-## Icons & Graphics
-
+- [icomoon.io](https://icomoon.io/) - icon collections & icon font generator
+- [fontastic.me](http://fontastic.me) - icon collections & icon font generator
 - [subtlepatterns.com](http://subtlepatterns.com/) - free textures to be used as background
 
 
