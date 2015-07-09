@@ -1,5 +1,7 @@
 # Web Crash Course: Info & Resources
 
+[![Join the chat at https://gitter.im/WebCrashCourse/info](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/WebCrashCourse/info?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Workshops
 
 - [Workshop #1](https://github.com/WebCrashCourse/workshop-1)
