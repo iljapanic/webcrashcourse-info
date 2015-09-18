@@ -1,0 +1,102 @@
+html {
+    font-size: ms(0);
+    line-height: 1.5;
+    box-sizing: border-box; // yeah.. we rolling with full on border-box!
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: ms(0);
+    font-family: $font-base;
+    background-color: $brand-light;
+    background: linear-gradient(to bottom, tint($brand-light, 40%), $brand-light);
+    color: $brand-dark;
+
+    @include MQ(M) {
+        font-size: ms(2);
+    }
+}
+
+a, a:visited {
+    color: $brand-secondary;
+    transition: color 0.75s;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: shade($brand-secondary, 25%) !important;
+    transition: color 0.75s;
+}
+
+
+p, ul, ol {
+    font-size: ms(0);
+}
+
+small, p.small, .small {
+    font-size: ms(-1);
+}
+
+p.big, .big {
+    font-size: ms(1);
+}
+
+h1 {   
+    font-size: ms(4);  
+}
+
+h2 {
+    font-size: ms(4);
+}
+
+h3 {
+    font-size: ms(2);
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+ul {
+    margin-top: $spacing;
+}
+
+hr {
+    display: block;
+    margin: $spacing*3 auto;
+    width: 55%; 
+    height: 1px;
+    background-color: $brand-medium;
+    border: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}

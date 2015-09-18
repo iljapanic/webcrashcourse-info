@@ -1,0 +1,11 @@
+.section {
+	margin-top: $spacing*3;
+}
+
+.section__title {
+	margin-bottom: 0;
+}
+
+.section__body p:first-of-type {
+	margin-top: $spacing/4;
+}

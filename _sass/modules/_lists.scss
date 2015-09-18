@@ -1,0 +1,52 @@
+.unstyled-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+// DASHED LIST
+.dash-list {
+	list-style-type: none;
+	margin-left: 0;
+	padding: 0;
+}
+
+.dash-list li {
+
+	&:before {
+		vertical-align: baseline;
+		content: '–';
+		margin: auto $spacing/3;
+	}
+
+}
+
+// DOTTED LIST
+.dot-list {
+	list-style-type: none;
+	margin-left: 0;
+	padding: 0;
+}
+
+.dot-list li {
+	display: inline-block;
+	margin-right: $spacing/2;
+
+	&:after {
+		vertical-align: middle;
+		display: inline-block;
+		content: '';
+		height: 5px;
+		width: 5px;
+		border-radius: 50%;
+		margin-left: $spacing/2;
+		background-color: $brand-medium;
+	}
+
+	&:last-of-type {
+		margin-right: none;
+
+		&:after {
+			display: none;
+		}
+	}
+}

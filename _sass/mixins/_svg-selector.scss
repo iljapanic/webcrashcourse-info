@@ -1,0 +1,6 @@
+@mixin svg-selector {
+
+	svg path, svg circle, svg g {
+		@content;
+	}
+}

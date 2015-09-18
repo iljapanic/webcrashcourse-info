@@ -1,0 +1,37 @@
+// Colors
+$yellow: #F4F1BB;
+$red: #ED6A5A;
+$blue: #5CA4A9;
+
+$brand-primary: $yellow;
+$brand-secondary: $red;
+
+
+$brand-light: $brand-primary;
+$brand-dark: shade($brand-light, 70%);
+$brand-medium: shade($brand-light, 25%);
+
+
+// Modular scale (https://github.com/modularscale/modularscale-sass)
+$ms-base: 0.9em; // 16px
+$ms-ratio: $minor-third;
+
+// Base spacing
+$spacing: ms(1);
+$radius: 6px;
+$max-width: 42em;
+$max-width-wide: 48em;
+
+// Media Queries
+$S: '(min-width:320px)';   
+$M: '(min-width:768px)';     
+$L: '(min-width:1024px)';
+
+
+// Font fallbacks
+$sans-serif: Helvetica, Arial, "Lucida Grande", sans-serif; // sans-serif fallback
+$serif: Garamond, Georgia, serif; // serif fallback
+
+// Font base
+$font-base: 'Open Sans', $sans-serif;
+$font-header: 'Open Sans', $serif;

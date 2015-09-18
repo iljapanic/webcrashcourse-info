@@ -1,0 +1,80 @@
+//
+// Animations
+//
+//  - based on great library from Dan Eden
+// 
+
+
+// DEALAYS
+.delay-0.5 {
+  animation-delay: 0.5s;
+}
+
+.delay-1 {
+  animation-delay: 1s;
+}
+
+.delay-1.5 {
+  animation-delay: 1.5s;
+}
+
+.delay-2 {
+  animation-delay: 2s;
+}
+
+
+// DURATION
+.duration-0.5 {
+  animation-duration: 0.5s;
+}
+
+.duration-1 {
+  animation-duration: 1s;
+}
+
+.duration-1.5 {
+  animation-duration: 1.5s;
+}
+
+.duration-2 {
+  animation-duration: 2s;
+}
+
+
+// ANIMATIONS
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale3d(1.075, 1.075, 1.075);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 5%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
