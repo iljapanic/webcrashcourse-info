@@ -25,6 +25,7 @@
 - [Reminder: Design is still about words](https://signalvnoise.com/posts/3404-reminder-design-is-still-about-words) by *Mig Reyes*
 - [Device-Agnostic](http://trentwalton.com/2014/03/10/device-agnostic/) by *Trent Walton*
 - [Responsive Web Design: Missing the Point](http://bradfrost.com/blog/web/responsive-web-design-missing-the-point/) by *Brad Frost* (take a loot at the pictures)
+- [Thriving in Unpredictability](http://timkadlec.com/2015/06/thriving-in-unpredictability/) by *Tim Kadlec*
 
 
 ## Resources
