@@ -35,31 +35,31 @@
     
     
     <header class="header" role="banner">
-        <div class="wrap--wide">
-            <article class="text-center">
+        <article class="text-center">
 	<h1 class="header__title">Web Crash Course</h1>
-
-	<div class="header__text">
-		<p>With ever-growing number of online courses and self-teaching materials it has never been easier to pick up coding skills. Yet, in terms of comprehension and knowledge exchange, nothing beats hands-on practitioner teaching with real-world examples.</p>
+	
+	<div class="wrap">
+		<div class="header__text">
+			<p>With ever-growing number of online courses and self-teaching materials it has never been easier to pick up coding skills. Yet, in terms of comprehension and knowledge exchange, nothing beats hands-on practitioner teaching with real-world examples.</p>
 <p>The idea is simple – to facilitate intense ad-hoc workshops where beginners learn to understand and use modern Web technologies from industry professionals.</p>
 
+		</div>
 	</div>
-
-	<div class="header__cover">
-		<img src="assets/img/learn-code-share.png" alt="Learn, Code, Share">
+	
+	<div class="wrap--wide">
+		<div class="header__cover">
+			<img src="assets/img/learn-code-share.png" alt="Learn, Code, Share">
+		</div>
 	</div>
-
 </article>
 
 
 
-        </div>
     </header>    
 
 
     <main class="main" role="main">
-        <div class="wrap">
-            <hr>
+        <hr>
 
 <section class="section text-center">
 	
@@ -67,31 +67,34 @@
 		<h2 class="section__title">Worskhops</h2>
 	</header>
 	
-	<article class="section__body">
-		<p>There is only one rule. A person attending the workshop has to walk out of it with something to show for. A code snippet on CodePen, a simple one-pager on GitHub Pages, or a full-blown site on Neocities. It is important for beginners to see how easy it is to get from an idea to a finished product online.</p>
+	<div class="wrap">
+		<article class="section__body">
+			<p>There is only one rule. A person attending the workshop has to walk out of it with something to show for. A code snippet on CodePen, a simple one-pager on GitHub Pages, or a full-blown site on Neocities. It is important for beginners to see how easy it is to get from an idea to a finished product online.</p>
 
-	</article>
-
-	<div class="section__widgets">
-
-		<article class="workshop">
-
-	<h3 class="workshop__title"><a href="https://github.com/WebCrashCourse/workshop-1" target="_blank" title="Check out the details of the first workshop">Workshop 1: Content-out Webdesign</a></h2>
-	<div class="workshop__body">
-		<p class="workshop__label">In this workshop you will learn:</p>
-		<ul class="dash-list">
-			<li>content-out approach to making websites</li>
-			<li>basics of visual hierarchy, color, typography</li>
-			<li>to build a responsive site using HTML/CSS</li>
-			<li>to work with repositories on GitHub</li>
-			<li>to host your site on GitHub Pages (for free)</li>
-		</ul>
+		</article>
 	</div>
+	
+	<div class="wrap--wide">
+		<div class="section__widgets">
+			<article class="workshop">
+	
+	<h3 class="workshop__title"><a href="https://github.com/WebCrashCourse/workshop-1" target="_blank" title="Check out the details of the workshop">Content-out Web design and building responsive sites</a></h3>
+	
+	<div class="workshop__body clearfix">
+			<p>In the first part of the workshop, we will learn about the content-out approach to Web design and its role in today's multi-screen consumer landscape. We will look at how to achieve simple designs with good information architecture by using visual hierarchy, color, and typography. In the second half, we will learn to work with repositories on GitHub and build our first responsive website using basic HTML and CSS. We will end off by hosting our finished site for free on GitHub Pages.</p>
+	
+			<p class="workshop__label">Instructors for this workshop:</p>
+
+			<ul class="unstyled-list">
+				<li><a href="#ilja-panic">Ilja Panic</a></li>
+			</ul>
+	</div>
+
 
 </article>
-	
+		</div>
 	</div>
-
+	
 </section>
 
 <hr>
@@ -107,7 +110,7 @@
 	</article>
 
 	<div class="section__widgets">
-		<article class="author">
+		<article id="ilja-panic" class="author">
 	
 	<div class="author__photo">
 		<img src="assets/img/author-ilja.jpg" alt="Ilja">
@@ -126,7 +129,6 @@
 
 </section>
 
-        </div>
     </main>
 
 
@@ -134,7 +136,6 @@
         
     </footer>
     
-   
 
     <!-- JavaScript -->
     <script type="text/javascript" src="assets/js/main.js"></script>

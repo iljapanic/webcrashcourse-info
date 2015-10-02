@@ -2,6 +2,23 @@
 	margin-top: $spacing*1.5;
 }
 
+.workshop__body {
+	margin-top: $spacing/4;
+	font-size: ms(0);
+}
+
+.workshop__body p:first-child {
+	margin-top: 0;
+}
+
+.workshop__split {
+	@include MQ(M) {
+		float: left;
+		width: 50%;
+	}
+}
+
+
 .workshop__title {
 	margin-bottom: 0;
 }
