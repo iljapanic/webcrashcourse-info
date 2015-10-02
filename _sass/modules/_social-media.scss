@@ -1,0 +1,43 @@
+$icon-size: 22px;
+
+.social-media {
+	
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+	li {
+		display: inline-block;
+		margin: 0 $spacing/4;
+	}
+
+	div {
+		background-size: $icon-size $icon-size;
+		background-repeat: no-repeat;
+		height: $icon-size;
+		width: $icon-size;
+	}
+
+	.github div {
+		background-image: url(../img/icon-github.svg);
+	}
+	
+	.twitter div {
+		background-image: url(../img/icon-twitter.svg);
+	}
+	
+	.linkedin div {
+		background-image: url(../img/icon-linkedin.svg);
+	}
+	
+	.web div {
+		background-image: url(../img/icon-web.svg);
+	}
+	
+	.mail div {
+		background-image: url(../img/icon-mail.svg);
+	}
+	
+
+}
