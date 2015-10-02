@@ -1,3 +1,7 @@
+.author {
+	margin-top: $spacing*2;
+}
+
 .author__photo img {
 	max-width: 120px;
 	border: 2px solid $brand-medium;
@@ -6,4 +10,9 @@
 	@include MQ(M) {
 		max-width: 160px;
 	}
+}
+
+.author__name {
+	margin-top: $spacing/4;
+	margin-bottom: $spacing/4;
 }
