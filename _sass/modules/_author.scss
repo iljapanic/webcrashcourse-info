@@ -1,9 +1,21 @@
+.section__widgets {
+
+	@include MQ(M) {
+
+		.author {
+			float: left;
+			width: 33%;
+		}
+	}
+
+}
+
 .author {
 	margin-top: $spacing*2;
 }
 
 .author__photo img {
-	max-width: 120px;
+	max-width: 90px;
 	border: 2px solid $brand-medium;
 	border-radius: 50%;
 
@@ -14,5 +26,32 @@
 
 .author__name {
 	margin-top: $spacing/4;
-	margin-bottom: $spacing/4;
+	margin-bottom: 0;
+}
+
+.author__status {
+	margin-top: $spacing/4;
+	font-size: ms(-1);
+}
+
+.author__status.on {
+	color: $green;
+}
+
+.author__status.off {
+	color: $red;
+}
+
+.author__location {
+	font-weight: 700;
+	font-size: ms(1);
+}
+
+.author__social {
+	margin-top: $spacing/4;
+}
+
+.author__prompt {
+	margin-top: $spacing;
+	font-size: ms(1);
 }
