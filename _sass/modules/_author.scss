@@ -54,4 +54,8 @@
 .author__prompt {
 	margin-top: $spacing;
 	font-size: ms(1);
+
+	@include MQ(M) {
+		margin-top: $spacing*2.5;
+	}
 }

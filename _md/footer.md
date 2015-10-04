@@ -1,3 +1,1 @@
-Help shape the future of this young project! Get in touch 
-
 <a href="https://github.com/WebCrashCourse/info/tree/gh-pages" target="_blank">Source code and attributions</a>
