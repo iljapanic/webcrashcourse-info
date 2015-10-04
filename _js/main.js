@@ -1,4 +1,0 @@
-
-SmartUnderline.init({
-	"location": ""
-})
