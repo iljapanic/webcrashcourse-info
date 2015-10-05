@@ -6,14 +6,15 @@
 		<h2 class="section__title">Worskhops</h2>
 	</header>
 	
-	<div class="wrap">
-		<article class="section__body">
+	<article class="section__body">
+		<div class="wrap">
 			@@include('../texts/workshops.html')
-		</article>
-	</div>
+		</div>
+	</article>
+
 	
-	<div class="wrap--wide">
-		<div class="section__widgets">
+	<div class="section__widgets">
+		<div class="wrap--wide">
 			@@include('../workshops/workshop-1.html')
 		</div>
 	</div>
@@ -29,7 +30,9 @@
 	</header>
 	
 	<article class="section__body">
-		@@include('../texts/instructors.html')
+		<div class="wrap">
+			@@include('../texts/instructors.html')
+		</div>
 	</article>
 
 	<div class="section__widgets clearfix">

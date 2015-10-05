@@ -1,1 +1,1 @@
-<a href="https://github.com/WebCrashCourse/info/tree/gh-pages" target="_blank">Source code and attributions</a>
+<a href="https://github.com/WebCrashCourse/info/tree/gh-pages" target="_blank">View source code and attributions on GitHub</a>
